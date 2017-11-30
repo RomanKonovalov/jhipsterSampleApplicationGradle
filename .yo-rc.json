@@ -1,0 +1,36 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitHubOrganization": "RomanKonovalov",
+    "baseName": "jhipsterSampleApplicationGradle",
+    "packageName": "com.romif.securityalarm",
+    "serverPort": 8090,
+    "serviceDiscoveryType": "false",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": false,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "gradle",
+    "enableSocialSignIn": false,
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angular1",
+    "jhipsterVersion": "4.11.1",
+    "packageFolder": "com/romif/securityalarm",
+    "jwtSecretKey": "8e538393ad9b094fef7a65e90f1480b48441dab0",
+    "jhiPrefix": "jhi"
+  }
+}
